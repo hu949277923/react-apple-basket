@@ -1,4 +1,4 @@
-# realWorld-nuxtjs
+# react-apple-basket
 
 部署成功的服务器地址
-106.75.76.122:3001
+106.75.76.122:8080
