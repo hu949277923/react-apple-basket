@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@main
     - run: npm install
     - run: npm run build
-    - run: tar -zcvf release.tgz package.json package-lock.json
+    - run: tar -zcvf release.tgz build public package.json package-lock.json
 
     # 发布 Release
     - name: Create Release
